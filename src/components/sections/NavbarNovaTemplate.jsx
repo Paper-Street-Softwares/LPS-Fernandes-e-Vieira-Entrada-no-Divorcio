@@ -87,8 +87,8 @@ function NavbarNovaTemplate({
           <div
             className={`flex flex-col z-20 relative  ${
               isScrolled
-                ? "w-[20%] tablet1:w-[15%] tablet2:w-[15%] desktop1:w-[10%] desktop2:w-[10%] desktop3:w-[8%] transition-all duration-700"
-                : "py-3 w-[40%] tablet1:w-[30%] tablet2:w-[30%] desktop1:w-[20%] desktop3:w-[15%] transition-all duration-700"
+                ? "w-[20%] phone2:w-[15%] tablet1:w-[15%] tablet2:w-[10%] desktop1:w-[10%] desktop2:w-[8%] desktop3:w-[8%] transition-all duration-700"
+                : "py-3 w-[30%] phone2:w-[20%] phone3:w-[23%] tablet1:w-[20%] tablet2:w-[15%] desktop1:w-[12%] desktop2:w-[10%] desktop3:w-[10%] transition-all duration-700"
             }`}
           >
             <a
@@ -102,7 +102,7 @@ function NavbarNovaTemplate({
                 alt={content.texts.navbar.logo.alt}
                 className="w-[100%] desktop1:hidden"
                 width={195}
-                height={51}
+                height={116}
                 fetchPriority="high"
               />
               <img
@@ -110,7 +110,7 @@ function NavbarNovaTemplate({
                 alt={content.texts.navbar.logo.alt}
                 className="w-[100%] hidden desktop1:flex"
                 width={350}
-                height={91}
+                height={209}
                 fetchPriority="high"
               />
             </a>

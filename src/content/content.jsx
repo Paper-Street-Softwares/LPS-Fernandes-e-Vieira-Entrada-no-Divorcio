@@ -40,14 +40,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Franciele Bentak",
+  name: "Advogada de Divórcio",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "divorcio-entrada.bentakadvespecializada.com.br", // Sem "www"
+  domain: "divorcio-entrada.fernandesevieiraadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: "47",
-    firstPart: "99167", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6707", // Apenas os 4 últimos números
+    ddd: "31",
+    firstPart: "99638", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5637", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -344,7 +344,7 @@ const content = {
         img: aboutImg,
         alt: "Imagem ilustrativa da Seção Sobre",
       },
-      miniTag: "Franciele Bentak Advocacia e Consultoria",
+      miniTag: "Fernandes & Vieira Advocacia e Consultoria",
       FirstPart: <span> Por que escolher </span>,
       Destaque: <span className="italic font-light"> nosso escritório?</span>,
       SecondPart: <span></span>,
