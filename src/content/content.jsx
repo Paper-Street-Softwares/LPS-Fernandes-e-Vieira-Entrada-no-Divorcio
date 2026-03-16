@@ -90,7 +90,7 @@ export const infos = {
   tiktokProfile: "",
 
   whatsappDefaultMessage:
-    "Olá! Vim do Google e preciso de ajuda com Divórcio. Quero dar entrada no processo todo online. Como fazemos?",
+    "Olá! Vim do Google e preciso de ajuda com Divórcio. Como faço para dar entrada?",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
